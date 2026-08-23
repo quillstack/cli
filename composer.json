@@ -10,7 +10,7 @@
         "quillstack",
         "php8"
     ],
-    "homepage": "https://quillstack.org/cli",
+    "homepage": "https://quillstack.org/packages/cli",
     "authors": [
         {
             "name": "Radek Ziemniewicz",
