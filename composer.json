@@ -1,0 +1,46 @@
+{
+    "name": "quillstack/cli",
+    "description": "A command line kernel: a command is a class, and what it needs it asks for.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "cli",
+        "console",
+        "commands",
+        "quillstack",
+        "php8"
+    ],
+    "homepage": "https://quillstack.org/cli",
+    "authors": [
+        {
+            "name": "Radek Ziemniewicz",
+            "email": "radek@quillstack.org"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "psr/container": "^2.0",
+        "quillstack/output": "^0.6"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.0",
+        "quillstack/di": "^0.6",
+        "quillstack/unit-tests": "^0.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Quillstack\\Cli\\": "src/",
+            "Quillstack\\Cli\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "unit-tests",
+        "test:coverage": "phpdbg -qrr ./vendor/bin/unit-tests",
+        "stan": "phpstan analyse"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.6.x-dev"
+        }
+    }
+}
