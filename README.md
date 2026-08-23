@@ -1,5 +1,18 @@
 # Quillstack Cli
 
+[![Tests](https://github.com/quillstack/cli/actions/workflows/tests.yml/badge.svg)](https://github.com/quillstack/cli/actions/workflows/tests.yml)
+[![Latest Version](https://img.shields.io/packagist/v/quillstack/cli.svg)](https://packagist.org/packages/quillstack/cli)
+[![Downloads](https://img.shields.io/packagist/dt/quillstack/cli.svg)](https://packagist.org/packages/quillstack/cli)
+[![PHP Version](https://img.shields.io/packagist/php-v/quillstack/cli)](https://packagist.org/packages/quillstack/cli)
+[![StyleCI](https://github.styleci.io/repos/1343640677/shield?branch=main)](https://github.styleci.io/repos/1343640677?branch=main)
+[![CodeFactor](https://www.codefactor.io/repository/github/quillstack/cli/badge)](https://www.codefactor.io/repository/github/quillstack/cli)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=quillstack_cli&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=quillstack_cli)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=quillstack_cli&metric=coverage)](https://sonarcloud.io/summary/new_code?id=quillstack_cli)
+[![Maintainability](https://sonarcloud.io/api/project_badges/measure?project=quillstack_cli&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=quillstack_cli)
+[![Reliability](https://sonarcloud.io/api/project_badges/measure?project=quillstack_cli&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=quillstack_cli)
+[![Security](https://sonarcloud.io/api/project_badges/measure?project=quillstack_cli&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=quillstack_cli)
+[![License](https://img.shields.io/packagist/l/quillstack/cli)](https://github.com/quillstack/cli/blob/main/LICENSE)
+
 A command line kernel: a command is a class, and what it needs it asks for. Full
 documentation: https://quillstack.org/cli
 
